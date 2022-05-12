@@ -1,0 +1,17 @@
+import emoji
+
+e=input('Pls enter your emoji(example:😁): ')
+
+if e=='end':
+    quit()    
+
+print(emoji.demojize(e))
+    
+while 0<1:
+    e=input('Pls enter your emoji(example:😁): ')
+
+    if e=='end':
+        quit()    
+
+    print(emoji.demojize(e))
+
